@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+
+		<title>Campaña de VacunAcción</title>	
+
+		<meta name="keywords" content="" />
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800;900&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/bootstrap-utilities.min.css" rel="stylesheet">
+    <link href="css/bootstrap-reboot.min.css" rel="stylesheet">
+
+	</head>
+    <body>
+        <main>
+            <header class="header-transparent">
+              <div class="container d-flex flex-wrap justify-content-center py-3" style="align-items: center;">    
+              <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                    <img src="imgs/logo-vacunaccion.png" style="width:auto; height:90px;">
+                  </a>
+            
+                  <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Inicio</a></li>
+                    <li class="nav-item"><a href="#menu-2" class="nav-link">¿Por qué debo vacunarme?</a></li>
+                    <li class="nav-item"><a href="#menu-3" class="nav-link">Antes de vacunarme</a></li>
+                    <li class="nav-item"><a href="#menu-4" class="nav-link">Contacto</a></li>
+                  </ul>
+              </div>
+            </header>
+                
+              <section>
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-md-6" style="padding-left: 15em; padding-top:7em;">
+                        <div class="p-5">
+                          <h1 class="py-5 intro-title">Protégete y protégenos</h1>
+                          <h4 class="text-8" style="font-weight:500 !important;">¿Eres rezagado o buscas el refuerzo? <br>Agenda una cita y vacúnate</h4>
+                        </div>
+                      </div>
+                      <div class="col-md-6 pt-5 text-center bg-1">
+                        <img src="imgs/staff-3.png">
+                      </div>
+                    </div>
+                    <div class="row mb-5" style="margin-top:-15%;">
+                      <div class="col-md-9" style="padding-left: 15em;">
+                        <div class="icon-box-wrap mb-4" >
+                          <div class="icon-box-sm"><img src="imgs/iconos-01.svg"></div>
+                          <div class="icon-title">Agenda tu cita</div>
+                        </div>
+                        <div class="row p-5" style="border-radius: 10px; background-color:rgba(255,255,255,.85); box-shadow: 0px 0px 20px #e7effb;">
+                          <div class="col-md-3">
+                            <div class="icon-box-wrap mb-4">
+                              <div class="icon-box-sm"><img src="imgs/iconos-02.svg"></div>
+                              <div class="icon-title">Ciudad</div>
+                            </div>
+                            <select name="ciudad" id="ciudad-select">
+                              <option value="">--Elige tu ciudad--</option>
+                              <option value="monterrey">Monterrey</option>
+                              <option value="san-pedro">San Pedro</option>
+                              <option value="san-nicolas">San Nicolás</option>
+                              <option value="guadalupe">Guadalupe</option>
+                              <option value="escobedo">Escobedo</option>
+                              <option value="apodaca">Apodaca</option>
+                              <option value="juarez">Juárez</option>
+                              <option value="garcia">García</option>
+                            </select>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="icon-box-wrap mb-4">
+                              <div class="icon-box-sm"><img src="imgs/iconos-03.svg"></div>
+                              <div class="icon-title">Fecha</div>
+                            </div>
+                            <p><input type="date" id="start" name="trip-start" value="" min="2022-03-01" max="2022-05-31"></p>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="icon-box-wrap mb-4">
+                              <div class="icon-box-sm"><img src="imgs/iconos-04.svg"></div>
+                              <div class="icon-title">Vacuna</div>
+                            </div>
+                            <select name="vacuna" id="vacuna-select">
+                              <option value="">--Elige tu vacuna--</option>
+                              <option value="monterrey">AstraZeneca</option>
+                              <option value="san-pedro">Pfizer</option>
+                              <option value="san-pedro">Sinovac</option>
+                              <option value="san-pedro">Moderna</option>
+                            </select>
+                          </div>
+                          <div class="col-md-3">
+                            <input type="submit" class="btn-big" value="Agendar">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                      </div>
+                    </div>
+                  </div>
+               </section>
+
+               <section>
+                 <div class="container p-5">
+                   <div class="row p-5">
+                     <div class="col-md-3 text-center"><img src="imgs/astrazeneca-logo.png" class="img-fluid"></div>
+                     <div class="col-md-3 text-center"><img src="imgs/sinovac-logo.png" class="img-fluid"></div>
+                     <div class="col-md-3 text-center"><img src="imgs/pfizer-logo.png" class="img-fluid"></div>
+                     <div class="col-md-3 text-center"><img src="imgs/moderna-logo.png" class="img-fluid"></div>
+                   </div>
+                 </div>
+               </section>
+
+               <section id="menu-2" class="mb-5">
+                <div class="container-fluid">
+                  <div class="row p-5" style="background:url(imgs/body-bg-1.png) center right no-repeat;">
+                    <div class="col-md-6 " style="padding-left: 15em;">
+                      <h1 class="section-title">¿Por qué debo vacunarme?</h1>
+                      <p class="text-4">Para evitar cualquier duda acerca de la aplicación de la vacuna contra COVID-19, conoce los siguientes 4 beneficios: </p>
+                    </div>
+                    <div class="col-md-6">
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="container">  
+                  <div class="row p-5">
+                    <div class="col-md-3 d-flex align-items-stretch">
+                      <div class="card">
+                        <div class="icon-box-bg"><img src="imgs/iconos-16.svg"></div>
+                        <h4 class="card-title">Minimiza la propagación del virus</h4>
+                        <p>La vacuna ha probado ser efectiva contra el contagio de Coronavirus.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-3 d-flex align-items-stretch">
+                      <div class="card">
+                        <div class="icon-box-bg"><img src="imgs/iconos-18.svg"></div>
+                        <h4 class="card-title">Desarrollar anticuerpos</h4>
+                        <p>LA vacuna contra COVID-19, ayuda a desarrollar anticuerpos responsables para el mejoramiento del sistema inmune.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-3 d-flex align-items-stretch">
+                      <div class="card">
+                        <div class="icon-box-bg"><img src="imgs/iconos-17.svg"></div>
+                        <h4 class="card-title">Protege a las personas a tu alrededor</h4>
+                        <p>Los beneficios de la vacuna contra COVID-19 nos permiten no solo estar protegidos nosotros, si no proteger a las persona que no rodean.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-3 d-flex align-items-stretch">
+                      <div class="card">
+                        <div class="icon-box-bg"><img src="imgs/iconos-19.svg"></div>
+                        <h4 class="card-title">Crea inmunidad de rebaño</h4>
+                        <p>Al estar vacunados todos, ayudamos al desarrollo de la inmunidad de rebaño.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section id="menu-3" class="mb-5" style="margin-bottom:8rem;">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-6 text-center mid-bg" style="padding:0 24px 0 0">
+                      <img src="imgs/body-bg-2.png">
+                      <img src="imgs/staff-1.png" style="margin-top:-240px;">
+                    </div>
+                    <div class="col-md-6" style="padding-right:15em; padding-left:44px;"><h1 class="section-title">Antes de vacunarte</h1>
+                      <p class="text-4">Los beneficios de la vacunan dependen directamente de la fortaleza de nuestro sistema inmune. Por lo tento, existen diversos factores que influyen para ayudar un mejor efecto en la vacuna: </p>
+                      <div class="wrap-collabsible">
+                        <input id="collapsible1" class="toggle" type="checkbox">
+                        <label for="collapsible1" class="lbl-toggle"><div class="icon-box-sm"><img src="imgs/iconos-07.svg"></div> Evita bebidas alcohólicas</label>
+                        <div class="collapsible-content">
+                          <div class="content-inner">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae tortor sed libero imperdiet sollicitudin. Nam fermentum nibh vel orci aliquam, at lacinia risus sagittis. Aenean efficitur eros risus, ac consectetur enim venenatis et. Mauris eleifend, turpis ut aliquet rutrum, justo leo maximus dolor, vitae pharetra elit magna cursus massa. 
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wrap-collabsible">
+                        <input id="collapsible2" class="toggle" type="checkbox">
+                        <label for="collapsible2" class="lbl-toggle"><div class="icon-box-sm"><img src="imgs/iconos-08.svg"></div> Evita el estrés</label>
+                        <div class="collapsible-content">
+                          <div class="content-inner">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae tortor sed libero imperdiet sollicitudin. Nam fermentum nibh vel orci aliquam, at lacinia risus sagittis. Aenean efficitur eros risus, ac consectetur enim venenatis et. Mauris eleifend, turpis ut aliquet rutrum, justo leo maximus dolor, vitae pharetra elit magna cursus massa. 
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wrap-collabsible">
+                        <input id="collapsible3" class="toggle" type="checkbox">
+                        <label for="collapsible3" class="lbl-toggle"><div class="icon-box-sm"><img src="imgs/iconos-09.svg"></div> Come saludable</label>
+                        <div class="collapsible-content">
+                          <div class="content-inner">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae tortor sed libero imperdiet sollicitudin. Nam fermentum nibh vel orci aliquam, at lacinia risus sagittis. Aenean efficitur eros risus, ac consectetur enim venenatis et. Mauris eleifend, turpis ut aliquet rutrum, justo leo maximus dolor, vitae pharetra elit magna cursus massa. 
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wrap-collabsible">
+                        <input id="collapsible4" class="toggle" type="checkbox">
+                        <label for="collapsible4" class="lbl-toggle"><div class="icon-box-sm"><img src="imgs/iconos-10.svg"></div> Duerme bien</label>
+                        <div class="collapsible-content">
+                          <div class="content-inner">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae tortor sed libero imperdiet sollicitudin. Nam fermentum nibh vel orci aliquam, at lacinia risus sagittis. Aenean efficitur eros risus, ac consectetur enim venenatis et. Mauris eleifend, turpis ut aliquet rutrum, justo leo maximus dolor, vitae pharetra elit magna cursus massa. 
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wrap-collabsible">
+                        <input id="collapsible5" class="toggle" type="checkbox">
+                        <label for="collapsible5" class="lbl-toggle"><div class="icon-box-sm"><img src="imgs/iconos-11.svg"></div> Realiza actividad fisíca</label>
+                        <div class="collapsible-content">
+                          <div class="content-inner">
+                            <p>
+                              QLorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae tortor sed libero imperdiet sollicitudin. Nam fermentum nibh vel orci aliquam, at lacinia risus sagittis. Aenean efficitur eros risus, ac consectetur enim venenatis et. Mauris eleifend, turpis ut aliquet rutrum, justo leo maximus dolor, vitae pharetra elit magna cursus massa. 
+                            </p>
+                          </div>
+                        </div>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section id="menu-4" style="margin-bottom: 8rem;">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-6" style="padding-left: 15em;">
+                      <h1 class="section-title">¿Tienes dudas? Contáctanos</h1>
+                      <p class="text-4">Si tienes preguntas acerca de la palicación de la vacuna, puedes mandarnos un mensajes a cualquier de los siguiente medios: </p>
+                      <div class="row my-5">
+                        <div class="col-md-6">
+                          <div class="card-2">
+                            <div class="d-flex align-items-center">
+                              <div class="icon-box-bg"><img src="imgs/iconos-12.svg"></div>
+                              <h4 class="card-title p-2">Llamada <br> <span style="font-size:.6em; font-weight:600; color:#6d7b93;">(81) 8180-9899</span></h4>
+                              </div>
+                              <a href="#" class="btn-med d-block text-center">¡Llámanos!</a>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="card-2">
+                            <div class="d-flex align-items-center">
+                            <div class="icon-box-bg"><img src="imgs/iconos-13.svg"></div>
+                            <h4 class="card-title p-2">Chat <br> <span style="font-size:.6em; font-weight:600; color:#6d7b93;">Mándanos un mensaje</span></h4>
+                            </div>
+                            <a href="#" class="btn-med d-block text-center">Chatea con nosotros</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row my-5">
+                        <div class="col-md-6">
+                          <div class="card-2">
+                            <div class="d-flex align-items-center">
+                              <div class="icon-box-bg"><img src="imgs/iconos-14.svg"></div>
+                              <h4 class="card-title p-2">Videollamada <br> <span style="font-size:.6em; font-weight:600; color:#6d7b93;">@VacunAccion</span></h4>
+                              </div>
+                              <a href="#" class="btn-med d-block text-center">¡Llámanos!</a>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="card-2">
+                            <div class="d-flex align-items-center">
+                            <div class="icon-box-bg"><img src="imgs/iconos-15.svg"></div>
+                            <h4 class="card-title p-2">Mensaje <br> <span style="font-size:.6em; font-weight:600; color:#6d7b93;">(81) 8180-9899</span></h4>
+                            </div>
+                            <a href="#" class="btn-med d-block text-center">Chatea con nosotros</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 text-center mid-bg">
+                      <img src="imgs/body-bg-1.png">
+                      <img src="imgs/staff-2.png" style="margin-top:-120px;">
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
+              <footer class="">
+                <div class="container py-5">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="imgs/logo-vacunaccion.png" style="width:auto; height:90px;">
+                      <p class="text-2">Nuestro objetivo es acercar a todas las persona a la vacunación contra COVID-19 por medio de procesos fáciles, rápidos y sustentados con información verídica.
+                    </div>
+                    <div class="col-md-2">
+                      <h4 class="">Acerca de</h4>
+                      <ul class="footer-nav">
+                        <li><a href="#">Acerca de nosotros</a></li>
+                        <li><a href="#">Nuestros valores</a></li>
+                        <li><a href="#">Comunicados</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-2">
+                      <h4>Organización</h4>
+                      <ul class="footer-nav">
+                        <li><a href="#">¿Cómo trabajamos?</a></li>
+                        <li><a href="#">Capital</a></li>
+                        <li><a href="#">Donaciones</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-2">
+                      <h4>Soporte</h4>
+                      <ul class="footer-nav">
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Centro de ayuda</a></li>
+                        <li><a href="#">Contáctanos</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                    <p>VacunAcción | Todos los derechos reservados 2022</p>
+                    </div>
+                    <div class="col-md-6" style="text-align: right;">
+                      <a href="#">Términos y Condiciones</a> <a href="#">Política de privacidad</a>
+                    </div>
+                  </div>
+                </div>
+              </footer>
+        </main>
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
